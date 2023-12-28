@@ -1,0 +1,40 @@
+---
+//Importa los componentes necesarios
+
+import MainSection from "../components/MainSection.astro";
+import LandingHeader from "../components/LandingHeader.astro";
+import Layout from "../layouts/Layout.astro";
+import Model3 from "../components/Model-3.astro";
+import ModelX from "../components/Model-X.astro";
+import ModelS from "../components/Model-S.astro"
+import TestTesla from "../components/Test-Tesla.astro"
+import SolarPanels from "../components/SolarPanel.astro"
+import Accesories from "../components/Accesories.astro"
+---
+
+<Layout title="Autos electricos">
+	<LandingHeader/>
+	<main class="snap-y snap-mandatory relative w-full h-screen overflow-auto overflow-x-hidden ">
+		<div class="snap-center">
+			<MainSection />
+		</div>
+		<div class="snap-center">
+			<Model3 />
+		</div>
+		<div class="snap-center">
+			<ModelX/>
+		</div>
+		<div class="snap-center">
+			<ModelS/>
+		</div>
+		<div class="snap-center">
+			<TestTesla/>
+		</div>
+		<div class="snap-center">
+			<SolarPanels/>
+		</div>
+		<div class="snap-center">
+			<Accesories/>
+		</div>
+	</main>
+</Layout>
