@@ -13,7 +13,9 @@ import Logo from "./Logo.astro";
 				<ul
 					class="flex text-sm [&>li>a]:transition-color [&>li>a]:duration-500 [&>li>a]:text-current [&>li>a]:font font-medium [&>li>a]:inline-block [&>li>a]:py-4 [&>li>a]:px-4"
 				>
-					<li><a href="">Vehiculos</a></li>
+					<li>
+						<a href="">Vehiculos</a>
+					</li>
 					<li><a href="">Energia</a></li>
 					<li><a href="">Carga</a></li>
 					<li><a href="">Descubrir</a></li>
@@ -87,3 +89,4 @@ import Logo from "./Logo.astro";
 			const $section = document.querySelectorAll(".landing-section")
 			$section.forEach((section) => observer.observe(section))
 		</script>
+		
